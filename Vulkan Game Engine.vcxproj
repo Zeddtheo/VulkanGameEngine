@@ -116,6 +116,9 @@
     <Bscmake>
       <PreserveSbr>true</PreserveSbr>
     </Bscmake>
+    <PreBuildEvent>
+      <Command>call shader_compile.bat</Command>
+    </PreBuildEvent>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <ClCompile>
@@ -135,26 +138,34 @@
       <AdditionalLibraryDirectories>F:\Vulkan\Lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <AdditionalDependencies>vulkan-1.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
+    <PreBuildEvent>
+      <Command>call shader_compile.bat</Command>
+    </PreBuildEvent>
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClInclude Include="FirstApp.h" />
     <ClInclude Include="GameModel.h" />
+    <ClInclude Include="GameObject.h" />
+    <ClInclude Include="GameRenderer.h" />
     <ClInclude Include="GameWindow.h" />
-    <ClInclude Include="GameEngineDevice.h" />
-    <ClInclude Include="GameEngineSwapChain.h" />
+    <ClInclude Include="GameDevice.h" />
+    <ClInclude Include="GameSwapChain.h" />
+    <ClInclude Include="SimpleRenderSystem.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="FirstApp.cpp" />
     <ClCompile Include="GameModel.cpp" />
     <ClCompile Include="GamePipeline.cpp" />
     <ClCompile Include="GamePipeline.h" />
+    <ClCompile Include="GameRenderer.cpp" />
     <ClCompile Include="GameWindow.cpp" />
     <ClCompile Include="Main.cpp" />
-    <ClCompile Include="GameEngineDevice.cpp" />
-    <ClCompile Include="GameEngineSwapChain.cpp" />
+    <ClCompile Include="GameDevice.cpp" />
+    <ClCompile Include="GameSwapChain.cpp" />
+    <ClCompile Include="SimpleRenderSystem.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="compile.bat" />
+    <None Include="shader_compile.bat" />
     <None Include="simple_shader.frag" />
     <None Include="simple_shader.frag.spv" />
     <None Include="simple_shader.vert" />

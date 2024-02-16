@@ -2,7 +2,9 @@ F:\Vulkan\Vk projets\Vulkan Game Engine\FirstApp.cpp;F:\Vulkan\Vk projets\Vulkan
 F:\Vulkan\Vk projets\Vulkan Game Engine\GameModel.cpp;F:\Vulkan\Vk projets\Vulkan Game Engine\x64\Debug\GameModel.obj
 F:\Vulkan\Vk projets\Vulkan Game Engine\GamePipeline.cpp;F:\Vulkan\Vk projets\Vulkan Game Engine\x64\Debug\GamePipeline.obj
 F:\Vulkan\Vk projets\Vulkan Game Engine\GamePipeline.h;F:\Vulkan\Vk projets\Vulkan Game Engine\x64\Debug\GamePipeline.obj
+F:\Vulkan\Vk projets\Vulkan Game Engine\GameRenderer.cpp;F:\Vulkan\Vk projets\Vulkan Game Engine\x64\Debug\GameRenderer.obj
 F:\Vulkan\Vk projets\Vulkan Game Engine\GameWindow.cpp;F:\Vulkan\Vk projets\Vulkan Game Engine\x64\Debug\GameWindow.obj
 F:\Vulkan\Vk projets\Vulkan Game Engine\Main.cpp;F:\Vulkan\Vk projets\Vulkan Game Engine\x64\Debug\Main.obj
-F:\Vulkan\Vk projets\Vulkan Game Engine\GameEngineDevice.cpp;F:\Vulkan\Vk projets\Vulkan Game Engine\x64\Debug\GameEngineDevice.obj
-F:\Vulkan\Vk projets\Vulkan Game Engine\GameEngineSwapChain.cpp;F:\Vulkan\Vk projets\Vulkan Game Engine\x64\Debug\GameEngineSwapChain.obj
+F:\Vulkan\Vk projets\Vulkan Game Engine\GameDevice.cpp;F:\Vulkan\Vk projets\Vulkan Game Engine\x64\Debug\GameDevice.obj
+F:\Vulkan\Vk projets\Vulkan Game Engine\GameSwapChain.cpp;F:\Vulkan\Vk projets\Vulkan Game Engine\x64\Debug\GameSwapChain.obj
+F:\Vulkan\Vk projets\Vulkan Game Engine\SimpleRenderSystem.cpp;F:\Vulkan\Vk projets\Vulkan Game Engine\x64\Debug\SimpleRenderSystem.obj

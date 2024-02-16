@@ -1,6 +1,6 @@
 #pragma once	
 
-#include "GameEngineDevice.h"
+#include "GameDevice.h"
 #define GLM_FORCE_RADIANS
 #define GLM_FORCE_DEPTH_ZERO_TO_ONE
 #include <glm/glm.hpp>
@@ -10,12 +10,13 @@ namespace misc {
 	public:
 		struct Vertex {
 			glm::vec2 position;
+			glm::vec3 color;
 
 			static std::vector<VkVertexInputBindingDescription> getBindingDescriptions();
 			static std::vector<VkVertexInputAttributeDescription> getAttributeDescriptions();
 
 		};
-		GameModel(GameEngineDevice& device, const std::vector<Vertex>& vertices);
+		GameModel(GameDevice& device, const std::vector<Vertex>& vertices);
 		~GameModel();
 
 		GameModel(const GameModel &) = delete;
@@ -25,7 +26,7 @@ namespace misc {
 	private:
 		void createVertexBuffer(const std::vector<Vertex>& vertices);
 
-		GameEngineDevice& gameDevice;
+		GameDevice& gameDevice;
 		VkBuffer vertexBuffer;
 		VkDeviceMemory vertexBufferMemory;
 		uint32_t vertexCount;

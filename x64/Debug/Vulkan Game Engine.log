@@ -1,6 +1,16 @@
-﻿  FirstApp.cpp
+﻿  请按任意键继续. . . 
+  FirstApp.cpp
+  GameModel.cpp
+  GamePipeline.cpp
+  GamePipeline.h
+  GameRenderer.cpp
+  GameWindow.cpp
   Main.cpp
+  GameDevice.cpp
+  GameSwapChain.cpp
+  SimpleRenderSystem.cpp
   Generating Code...
+x64\Debug\GamePipeline.obj : warning LNK4042: object specified more than once; extras ignored
   Vulkan Game Engine.vcxproj -> F:\Vulkan\Vk projets\Vulkan Game Engine\x64\Debug\Vulkan Game Engine.exe
   'pwsh.exe' 不是内部或外部命令，也不是可运行的程序
   或批处理文件。

@@ -1,15 +1,31 @@
+f:\vulkan\vk projets\vulkan game engine\x64\debug\vulkan game engine.bsc
 f:\vulkan\vk projets\vulkan game engine\x64\debug\vc143.pdb
 f:\vulkan\vk projets\vulkan game engine\x64\debug\vc143.idb
+f:\vulkan\vk projets\vulkan game engine\x64\debug\firstapp.sbr
+f:\vulkan\vk projets\vulkan game engine\x64\debug\gamemodel.sbr
+f:\vulkan\vk projets\vulkan game engine\x64\debug\gamepipeline.sbr
+f:\vulkan\vk projets\vulkan game engine\x64\debug\gamerenderer.sbr
+f:\vulkan\vk projets\vulkan game engine\x64\debug\gamewindow.sbr
+f:\vulkan\vk projets\vulkan game engine\x64\debug\main.sbr
+f:\vulkan\vk projets\vulkan game engine\x64\debug\gamedevice.sbr
+f:\vulkan\vk projets\vulkan game engine\x64\debug\gameengineswapchain.sbr
+f:\vulkan\vk projets\vulkan game engine\x64\debug\simplerendersystem.sbr
+f:\vulkan\vk projets\vulkan game engine\x64\debug\simplerendersystem.obj
 f:\vulkan\vk projets\vulkan game engine\x64\debug\gameengineswapchain.obj
-f:\vulkan\vk projets\vulkan game engine\x64\debug\gameenginedevice.obj
+f:\vulkan\vk projets\vulkan game engine\x64\debug\gamedevice.obj
 f:\vulkan\vk projets\vulkan game engine\x64\debug\main.obj
 f:\vulkan\vk projets\vulkan game engine\x64\debug\gamewindow.obj
+f:\vulkan\vk projets\vulkan game engine\x64\debug\gamerenderer.obj
 f:\vulkan\vk projets\vulkan game engine\x64\debug\gamepipeline.obj
+f:\vulkan\vk projets\vulkan game engine\x64\debug\gamemodel.obj
 f:\vulkan\vk projets\vulkan game engine\x64\debug\firstapp.obj
 f:\vulkan\vk projets\vulkan game engine\x64\debug\vulkan game engine.ilk
 f:\vulkan\vk projets\vulkan game engine\x64\debug\vulkan game engine.exe
 f:\vulkan\vk projets\vulkan game engine\x64\debug\vulkan game engine.pdb
 f:\vulkan\vk projets\vulkan game engine\x64\debug\glfw3.dll
+f:\vulkan\vk projets\vulkan game engine\x64\debug\vulkan g.3a4e9bd9.tlog\bscmake.command.1.tlog
+f:\vulkan\vk projets\vulkan game engine\x64\debug\vulkan g.3a4e9bd9.tlog\bscmake.read.1.tlog
+f:\vulkan\vk projets\vulkan game engine\x64\debug\vulkan g.3a4e9bd9.tlog\bscmake.write.1.tlog
 f:\vulkan\vk projets\vulkan game engine\x64\debug\vulkan g.3a4e9bd9.tlog\cl.command.1.tlog
 f:\vulkan\vk projets\vulkan game engine\x64\debug\vulkan g.3a4e9bd9.tlog\cl.items.tlog
 f:\vulkan\vk projets\vulkan game engine\x64\debug\vulkan g.3a4e9bd9.tlog\cl.read.1.tlog

@@ -24,13 +24,22 @@
     <ClInclude Include="FirstApp.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="GameEngineDevice.h">
+    <ClInclude Include="GameDevice.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="GameEngineSwapChain.h">
+    <ClInclude Include="GameSwapChain.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="GameModel.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GameRenderer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SimpleRenderSystem.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
@@ -50,13 +59,19 @@
     <ClCompile Include="GamePipeline.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="GameEngineDevice.cpp">
+    <ClCompile Include="GameDevice.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="GameEngineSwapChain.cpp">
+    <ClCompile Include="GameSwapChain.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="GameModel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GameRenderer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SimpleRenderSystem.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
@@ -67,7 +82,7 @@
     <None Include="simple_shader.frag">
       <Filter>Shaders</Filter>
     </None>
-    <None Include="compile.bat">
+    <None Include="shader_compile.bat">
       <Filter>Source Files</Filter>
     </None>
     <None Include="simple_shader.frag.spv">

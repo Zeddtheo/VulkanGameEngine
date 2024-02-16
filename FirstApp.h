@@ -1,12 +1,12 @@
 #pragma once
+
+#include "GameDevice.h"
+#include "GameObject.h"
+#include "GameRenderer.h"
 #include "GameWindow.h"
-#include "GamePipeline.h"
-#include "GameEngineDevice.h"
 
 #include <memory>
 #include <vector>
-#include "GameEngineSwapChain.h"
-#include "GameModel.h"
 
 namespace misc {
 class FirstApp
@@ -19,30 +19,16 @@ class FirstApp
 		~FirstApp();
 
 		FirstApp(const FirstApp&) = delete;
-		FirstApp& operator=(const FirstApp&) = delete;
+		FirstApp &operator=(const FirstApp&) = delete;
 
 		void run();
 	private:
-		void loadModels();
-		void createPipelineLayout();
-		void createPipeline();
-		void createCommandBuffers();
-		void drawFrame();
+		void loadGameObjects();
 
-		void sierpinski(std::vector<GameModel::Vertex>& vertices,
-			int depth,
-			glm::vec2 left,
-			glm::vec2 right,
-			glm::vec2 top);
-
-		GameWindow gameWindow{ WIDTH, HEIGHT, "Hello, Vulkan!" };
-		GameEngineDevice myDevice{ gameWindow };
-		GameEngineSwapChain mySwapChain{myDevice, gameWindow.getExtent() };
-
-		std::unique_ptr<GamePipeline> myPipeline;
-		VkPipelineLayout pipelineLayout;
-		std::vector<VkCommandBuffer> commandBuffers;
-		std::unique_ptr<GameModel> gameModel;
+		GameWindow myWindow{ WIDTH, HEIGHT, "Hello, Vulkan!" };
+		GameDevice myDevice{ myWindow };
+		GameRenderer myRenderer{myWindow, myDevice};
+		std::vector<GameObject> gameObjects;
 };
 }
 
