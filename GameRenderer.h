@@ -18,6 +18,7 @@ namespace misc {
         GameRenderer& operator=(const GameRenderer&) = delete;
 
         VkRenderPass getSwapChainRenderPass() const { return mySwapChain->getRenderPass(); }
+        float getAspectRatio() const { return mySwapChain->extentAspectRatio(); }
         bool isFrameInProgress() const { return isFrameStarted; }
 
         VkCommandBuffer getCurrentCommandBuffer() const {

@@ -3,7 +3,7 @@
 #include "GameDevice.h"
 #include "GameObject.h"
 #include "Gamepipeline.h"
-
+#include "GameCamera.h"
 // std
 #include <memory>
 #include <vector>
@@ -17,7 +17,9 @@ namespace misc {
 		SimpleRenderSystem(const SimpleRenderSystem&) = delete;
 		SimpleRenderSystem& operator=(const SimpleRenderSystem&) = delete;
 
-		void renderGameObjects(VkCommandBuffer commandBuffer, std::vector<GameObject>& gameObjects);
+		void renderGameObjects(VkCommandBuffer commandBuffer,
+			std::vector<GameObject>& gameObjects,
+			const GameCamera& camera);
 
 	private:
 		void createPipelineLayout();

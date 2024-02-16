@@ -1,5 +1,6 @@
 ﻿  请按任意键继续. . . 
   FirstApp.cpp
+  GameCamera.cpp
   GameModel.cpp
   GamePipeline.cpp
   GamePipeline.h

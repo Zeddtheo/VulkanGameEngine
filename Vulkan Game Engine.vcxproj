@@ -144,6 +144,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClInclude Include="FirstApp.h" />
+    <ClInclude Include="GameCamera.h" />
     <ClInclude Include="GameModel.h" />
     <ClInclude Include="GameObject.h" />
     <ClInclude Include="GameRenderer.h" />
@@ -154,6 +155,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="FirstApp.cpp" />
+    <ClCompile Include="GameCamera.cpp" />
     <ClCompile Include="GameModel.cpp" />
     <ClCompile Include="GamePipeline.cpp" />
     <ClCompile Include="GamePipeline.h" />
