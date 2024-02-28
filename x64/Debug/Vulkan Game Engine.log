@@ -1,11 +1,17 @@
 ﻿  请按任意键继续. . . 
+  Descriptors.cpp
+F:\Vulkan\Vk projets\Vulkan Game Engine\Descriptors.cpp(193,67): warning C4267: 'argument': conversion from 'size_t' to 'uint32_t', possible loss of data
   FirstApp.cpp
+  GameBuffer.cpp
   GameCamera.cpp
   GameModel.cpp
+  GLM_GTX_hash requires C++11 standard library support
+  GameObject.cpp
   GamePipeline.cpp
   GamePipeline.h
   GameRenderer.cpp
   GameWindow.cpp
+  KeyboardMovementController.cpp
   Main.cpp
   GameDevice.cpp
   GameSwapChain.cpp

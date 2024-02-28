@@ -4,6 +4,7 @@
 #include "GameObject.h"
 #include "Gamepipeline.h"
 #include "GameCamera.h"
+#include "FrameInfo.h"
 // std
 #include <memory>
 #include <vector>
@@ -11,18 +12,16 @@
 namespace misc {
 	class SimpleRenderSystem {
 	public:
-		SimpleRenderSystem(GameDevice& device, VkRenderPass renderPass);
+		SimpleRenderSystem(GameDevice& device, VkRenderPass renderPass, VkDescriptorSetLayout globalSetLayout);
 		~SimpleRenderSystem();
 
 		SimpleRenderSystem(const SimpleRenderSystem&) = delete;
 		SimpleRenderSystem& operator=(const SimpleRenderSystem&) = delete;
 
-		void renderGameObjects(VkCommandBuffer commandBuffer,
-			std::vector<GameObject>& gameObjects,
-			const GameCamera& camera);
+		void renderGameObjects(FrameInfo& frameInfo);
 
 	private:
-		void createPipelineLayout();
+		void createPipelineLayout(VkDescriptorSetLayout globalSetLayout);
 		void createPipeline(VkRenderPass renderPass);
 
 		GameDevice& myDevice;

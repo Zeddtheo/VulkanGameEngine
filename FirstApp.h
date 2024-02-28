@@ -4,6 +4,7 @@
 #include "GameObject.h"
 #include "GameRenderer.h"
 #include "GameWindow.h"
+#include "Descriptors.h"
 
 #include <memory>
 #include <vector>
@@ -28,7 +29,9 @@ class FirstApp
 		GameWindow myWindow{ WIDTH, HEIGHT, "Hello, Vulkan!" };
 		GameDevice myDevice{ myWindow };
 		GameRenderer myRenderer{myWindow, myDevice};
-		std::vector<GameObject> gameObjects;
+		// note: order of declarations matters
+		std::unique_ptr<DescriptorPool> globalPool{};
+		GameObject::Map gameObjects;
 };
 }
 

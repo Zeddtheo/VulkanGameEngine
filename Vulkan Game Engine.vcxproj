@@ -104,8 +104,9 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
-      <AdditionalIncludeDirectories>F:\Vulkan\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\Libraries\tinyobjloader;F:\Vulkan\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <BrowseInformation>true</BrowseInformation>
+      <LanguageStandard>stdcpp17</LanguageStandard>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -143,24 +144,33 @@
     </PreBuildEvent>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="Descriptors.h" />
     <ClInclude Include="FirstApp.h" />
+    <ClInclude Include="FrameInfo.h" />
+    <ClInclude Include="GameBuffer.h" />
     <ClInclude Include="GameCamera.h" />
     <ClInclude Include="GameModel.h" />
     <ClInclude Include="GameObject.h" />
     <ClInclude Include="GameRenderer.h" />
+    <ClInclude Include="GameUtils.h" />
     <ClInclude Include="GameWindow.h" />
     <ClInclude Include="GameDevice.h" />
     <ClInclude Include="GameSwapChain.h" />
+    <ClInclude Include="KeyboardMovementController.h" />
     <ClInclude Include="SimpleRenderSystem.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="Descriptors.cpp" />
     <ClCompile Include="FirstApp.cpp" />
+    <ClCompile Include="GameBuffer.cpp" />
     <ClCompile Include="GameCamera.cpp" />
     <ClCompile Include="GameModel.cpp" />
+    <ClCompile Include="GameObject.cpp" />
     <ClCompile Include="GamePipeline.cpp" />
     <ClCompile Include="GamePipeline.h" />
     <ClCompile Include="GameRenderer.cpp" />
     <ClCompile Include="GameWindow.cpp" />
+    <ClCompile Include="KeyboardMovementController.cpp" />
     <ClCompile Include="Main.cpp" />
     <ClCompile Include="GameDevice.cpp" />
     <ClCompile Include="GameSwapChain.cpp" />

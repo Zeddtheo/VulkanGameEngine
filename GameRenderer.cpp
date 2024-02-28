@@ -6,7 +6,6 @@
 #include <stdexcept>
 
 namespace misc {
-
     GameRenderer::GameRenderer(GameWindow& window, GameDevice& device)
         : myWindow{ window }, myDevice{ device } {
         recreateSwapChain();
